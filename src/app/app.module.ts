@@ -7,11 +7,10 @@ import { AUTH_PROVIDERS }      from 'angular2-jwt';
 
 import { AppComponent } from './component/app/app.component';
 import {Auth} from "./service/auth/auth.service";
-import {TopNavComponent} from "./top-nav/top-nav.component";
 
 @NgModule({
   declarations: [
-    AppComponent, TopNavComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
